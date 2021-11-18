@@ -11,7 +11,7 @@ public class CommunicationClient {
 
     public void startClient(String hostIp) {
         try {
-            socket = new Socket(hostIp, 55000);
+            socket = new Socket(hostIp, 53000);
 
             input = new DataInputStream(socket.getInputStream());
 
